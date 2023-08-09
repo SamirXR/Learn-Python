@@ -1,2 +1,2 @@
 # Learn-Python
- had trouble learning Python, so I created a repository. Give it a shot, it's beginner-friendly and I've kept it very simple.
+Faced Python learning issues, so I made a beginner-friendly repository. Try it; I've kept it simple.
