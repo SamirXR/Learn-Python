@@ -1,7 +1,7 @@
 # Day 3: Operators for Integers and Strings
 
 ## Arithmetic Operators for Integers:
-```python
+
 # Addition
 a = 5 + 3
 print(a) #output 8
@@ -20,10 +20,10 @@ print(e) #output 4
 # Exponentiation
 f = 2 ** 3
 print(f) #output 8
-```
+
 
 ## Arithmetic Operators for Strings:
-```python
+
 # String Concatenation
 str1 = "Hello, "
 str2 = "world!"
@@ -31,7 +31,7 @@ result = str1 + str2
 print(result) #output "Hello, World!"
 # String Repetition
 str3 = "abc" * 3  # Output: "abcabcabc"
-```
+
 
 ### For knowledge testing:
 
