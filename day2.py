@@ -1,49 +1,38 @@
-# How to Code in Pycharm:
+# How to Code in PyCharm:
 
-# step 1) Open Pycharm
-# step 2) File Menu: New Project: Project 1
-# step 3) Project 1: Right Click: Create New Python file and Give it Name.
+# Step 1: Open PyCharm
+# Step 2: Create a new project by going to the File menu and selecting "New Project" with the name "Project 1"
+# Step 3: Right-click on "Project 1" and choose "Create New Python File" to create a new file.
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# To use Comments In Python.
+##################################################
+# To use comments in Python:
 
-# 1) Python Only Supports Single line comments with a Hash (#)
-# Shortcut Key : Ctrl + /
+# Python only supports single-line comments using the hash symbol (#).
+# You can comment or uncomment a line by selecting it and pressing Ctrl + /.
 
-# - Select the Code you wish to Comment then Click: Ctrl + /
-# (You can Uncomment by doing the same)
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Types of String: We make Strings using Single or Double Quotes!
+##################################################
+# Types of strings: We can use single or double quotes!
 
 # Single line
-A = "Welcome to Python"  # Example using (")
+A = "Welcome to Python"  # Example using double quotes
+A = 'Welcome to Python'  # Example using single quotes
 
-A = 'Welcome to Python'  # Example using (')
-
-# Multiple line
-# Example using (""")
+# Multiple lines
 A = """
 This is line One!
 This is line Second!  
 This is Third Line!
 """
 
-# Example using (''')
+##################################################
+# Writing our first code in Python!
 
-A = '''
-This is line One!
-This is line Second!  
-This is Third Line!
-'''
+print("Hello World")  # Congratulations! You just wrote your first Python code!
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Writing our First Code in Python!
+##################################################
+# A program using all types of strings!
+# Here, the words are the same, but we used different types of strings.
 
-print("Hello World")  # Congratulations You just wrote your first Python Code!
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# A Program using all types of String!
-# # Here the Words are same but we used different types of String!
 A = "Welcome to Python"
 print(A)
 A = 'Welcome to Python'
@@ -53,127 +42,112 @@ print(A)
 A = '''Welcome to Python'''
 print(A)
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Variables: Variables are Data storing Element (There Can be Multiple Variables in Program)
+##################################################
+# Variables: Variables are used to store data.
 
-A = 10  # Here "A" is Variable Storing a String Value
-B = "Hello"  # Here "B" is Variable Storing an Integer Value.
+A = 10  # Here "A" is a variable storing an integer value
+B = "Hello"  # Here "B" is a variable storing a string value.
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# print() Function
-# It Displays the Data on Python Console
+##################################################
+# print() function: It displays data on the Python console.
 
-print("This is Important Function in Python")  # Example of Print() Function (String)
-print(666)  # Printing a Integer using Print()
+print("This is an important function in Python")  # Example of print() function with a string
+print(666)  # Printing an integer using print()
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Data Types in Python
+##################################################
+# Data types in Python:
 
-# Single Element Types:
-# 1) Integer (int)  : Whole Number
-# 2) Float          : Decimal Values (Example 6.6)
-# 3) Complex Number : Real + Imaginary Value (3 + 4j)
-# 5) Boolean (bool) : True/False
+# Single element types:
+# 1) Integer (int): Whole numbers
+# 2) Float: Decimal values (e.g., 6.6)
+# 3) Complex number: Real + imaginary value (e.g., 3 + 4j)
+# 4) Boolean (bool): True/False
 
-# Multiple Element Types:
-# 1) String (str)   : Collection of Characters
-# 2) List (list)    : Ordered Mutable Sequence
-# 3) Tuple (tuple)  : Ordered Immutable Sequence
-# 4) Set (set)      : Unordered Collection of Unique Elements
-# 5) Frozenset      : Immutable Set
+# Multiple element types:
+# 1) String (str): Collection of characters
+# 2) List (list): Ordered mutable sequence
+# 3) Tuple (tuple): Ordered immutable sequence
+# 4) Set (set): Unordered collection of unique elements
+# 5) Frozenset: Immutable set
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Example of Data Types (Single Element)
+##################################################
+# Example of data types (single element)
 
-# Integer(int)
+# Integer (int)
+A = 10
+print(type(A))  # Use the type() function to determine the data type of a variable
 
-A=10
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 # Float
+A = 1.7
+print(type(A))
 
-A=1.7
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Complex/Imaginary Number
+# Complex/imaginary number
+A = 2j
+print(type(A))
 
-A=2j
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 # Boolean (bool)
+A = True
+print(type(A))
 
-A=True
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Example of Data Types (Single Element)
+# String (str)
+A = "Hello World"
+print(type(A))
 
-# String(str)
+##################################################
+# Example of data types (multiple elements)
 
-A="Hello World"
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# list: Can Contain Integer, String and Boolean Value etc
+# List: Can contain integers, strings, booleans, etc.
+A = [666, "Hello", True]
+print(type(A))
 
-A=[666,"Hello",True]
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Tuple: Can Contain Integer, String and Boolean Value etc
+# Tuple: Can contain integers, strings, booleans, etc.
+A = (666, "Hello", True)
+print(type(A))
 
-A=(666,"Hello",True)
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Set: Can Contain Integer, String and Boolean Value etc
+# Set: Can contain integers, strings, booleans, etc.
+A = {666, "Hello", True}
+print(type(A))
 
-A={666,"Hello",True}
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Frozenset: Can Contain Integer, String and Boolean Value etc
+# Frozenset: Can contain integers, strings, booleans, etc.
+A = frozenset([666, "Hello", True])
+print(type(A))
 
-A = frozenset([666,"Hello",True])
-print(type(A))    # Type() Function is Used to Tell Data Type Of Variable
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+##################################################
 # In Python, every variable is stored with an ID in the RAM.
+# Example to check ID using the id() function
 
-# Example to Check ID using id() Function
-
-# ID of a String
-A="Hello"
+# ID of a string
+A = "Hello"
 print(id(A))
 
 # ID of an integer
-A=666
+A = 666
 print(id(A))
 
-# You Can check ID of Every Datatype using id() function
+# You can check the ID of every data type using the id() function.
 
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-# Print Statement : Extended Version
-# Print Statement have two Default Arguments: end="\n" ,sep=" "
+##################################################
+# Print statement: Extended version
+# The print statement has two default arguments: end="\n" and sep=" "
 
-# Default Value of end is : \n
-# Default Value of sep is :  "" (space)
-# The End and Sep are Automatically performed during Print() Statement
+# Default value of end is: \n
+# Default value of sep is: "" (space)
 
-# There are Few Escape Characters in Python
+# Escape characters:
+# \n: New line
+# \t: Tab (4 spaces)
 
-# \n : New Line
-# \t : New Tab (Basically A space of 4)
+# Example of escape character: \t
+print("H\te\tl\tl\to")  # Used \t for tab spaces between a single string.
 
-# Example of Escape Character : /t
-print("H\te\tl\tl\to")    # Used \t for the Tab Space between a single String.
+# Example of escape character: \n
+print("H\ne\nl\nl\no")  # Used \n for new lines between a single string.
 
-# Example of Escape Character : /n
-print("H\ne\nl\nl\no")    # Used \t for the New line between a single String.
+# Example of separator (sep): May work with integers and strings
+A, B, C = 6, 6, 6
+print(A, B, C, sep="**")  # Used sep="**" to put a separator between integers.
 
-# Example of Seperator(sep) : May Work with int and String
-A,B,C=6,6,6
-print(A,B,C,sep="**")     # Used sep='' to put a separator in between integers.
-
-# Example of End : May Work with int and String
-print("Welcome",end="**") # Used end='' to put a end in between integers. (Custom End)
+# Example of end: May work with integers and strings
+print("Welcome", end="**")  # Used end="**" to put an end between integers. (Custom end)
 print("To")
 print("Python")
-
-
-
-
