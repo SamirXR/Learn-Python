@@ -7,6 +7,8 @@ Follow these steps to install Python.
 2. **Install:** Run installer, check "Add Python x.x to PATH," and click "Install."
 3. **Verify:** Open Command Prompt, type `python --version` to confirm.
 
+Note: If you are on Linux, Python is already installed.
+
 
 Follow these steps to install Python using PyCharm:
 
@@ -40,7 +42,7 @@ Google Colab provides a Jupyter notebook environment that allows you to write an
 
 Official Replit Documentation: [https://docs.replit.com](https://docs.replit.com/) <br>
 Google Colab Overview: [https://colab.research.google.com/notebooks/basic_features_overview.ipynb](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) <br>
-Pycharm Overviw: [https://www.jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/) <br>
+Pycharm Overview: [https://www.jetbrains.com/pycharm](https://www.jetbrains.com/pycharm/) <br>
 Python Documentation: [https://docs.python.org](https://docs.python.org)
 
 
