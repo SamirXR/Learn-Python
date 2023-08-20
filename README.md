@@ -7,7 +7,7 @@ Follow these steps to install Python.
 2. **Install:** Run installer, check "Add Python x.x to PATH," and click "Install."
 3. **Verify:** Open Command Prompt, type `python --version` to confirm.
 
-Note: If you are on Linux, Python is already installed.
+(Note: If you are on Linux, Python is already installed.)
 
 
 Follow these steps to install Python using PyCharm:
