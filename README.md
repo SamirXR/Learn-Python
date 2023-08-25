@@ -1,5 +1,5 @@
 # Learn-Python
-Faced Python learning issues, so I made a beginner-friendly repository. Try it; I've kept it simple.
+I have faced a few Python learning issues, so I made a beginner-friendly repository. Try it; I've kept it simple.
 
 ## Installation
 Follow these steps to install Python.
@@ -38,7 +38,17 @@ Google Colab provides a Jupyter notebook environment that allows you to write an
 4. Write your Python code in the code cells.
 5. Run a code cell by clicking the "Play" button or using the keyboard shortcut Shift + Enter.
 
- ## Resources
+## a-Shell
+
+a-Shell provides a terminal for you to run scripts on iOS. You can even install packages with pip! Please note that some pip packages don't work.
+
+1. Download a-Shell at [https://holzschu.github.io/a-Shell_iOS/](https://holzschu.github.io/a-Shell_iOS/).
+2. Open the app.
+3. Once inside the app, type `pico x.py`.
+4. Write some code, then press the `^` button and `x`. This will ask you if you want to save. Press `y`.
+5. Type `python3 x.py` and see the output!
+
+## Resources
 
 Official Replit Documentation: [https://docs.replit.com](https://docs.replit.com/) <br>
 Google Colab Overview: [https://colab.research.google.com/notebooks/basic_features_overview.ipynb](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) <br>
